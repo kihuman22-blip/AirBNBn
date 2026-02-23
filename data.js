@@ -30,17 +30,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.5353804431147378,
-          "pitch": 0.2155767180528052,
+          "yaw": 1.5477429273112016,
+          "pitch": 0.2291067159348632,
           "rotation": 0,
-          "target": "1-tr-eingang"
+          "target": "1-eingang-tr"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-tr-eingang",
-      "name": "Tür-Eingang",
+      "id": "1-eingang-tr",
+      "name": "Eingang-Tür",
       "levels": [
         {
           "tileSize": 256,
@@ -68,20 +68,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.9731732219739335,
-          "pitch": 0.4675690694503487,
+          "yaw": -2.9791923280126547,
+          "pitch": 0.47896175843679245,
           "rotation": 0,
           "target": "0-hauptstrae"
         },
         {
-          "yaw": 1.6688400543092978,
-          "pitch": 0.7063239831244861,
-          "rotation": 0,
-          "target": "5-eingang-fahrstuhl"
-        },
-        {
-          "yaw": 0.2579757429284122,
-          "pitch": 0.39396756184089554,
+          "yaw": 0.28608120592090813,
+          "pitch": 0.4230853478775529,
           "rotation": 0,
           "target": "2-hinterhof"
         }
@@ -118,29 +112,36 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.29169177923574274,
-          "pitch": 0.4552059408798108,
+          "yaw": 0.2782903248429811,
+          "pitch": 0.48055492736527583,
           "rotation": 0,
-          "target": "1-tr-eingang"
+          "target": "1-eingang-tr"
         },
         {
-          "yaw": 1.6491932481527316,
-          "pitch": 0.7390344164752776,
+          "yaw": 1.6363531894657548,
+          "pitch": 0.75021536073805,
           "rotation": 0,
-          "target": "3-schlsselbox"
+          "target": "3-schlsselsafe-1"
         },
         {
-          "yaw": -1.5823949177092977,
-          "pitch": 0.6642516906167089,
+          "yaw": -1.5251474368313502,
+          "pitch": 0.5143182712340924,
           "rotation": 0,
           "target": "4-parkplatz"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 1.5243574597899316,
+          "pitch": -0.03997450219609355,
+          "title": "Schlüsselsafe 1",
+          "text": "<br>"
+        }
+      ]
     },
     {
-      "id": "3-schlsselbox",
-      "name": "SchlüsselBox",
+      "id": "3-schlsselsafe-1",
+      "name": "Schlüsselsafe 1",
       "levels": [
         {
           "tileSize": 256,
@@ -168,17 +169,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.387768624106851,
-          "pitch": 0.879748720254284,
+          "yaw": 0.3346187613107059,
+          "pitch": 0.7608956975120549,
           "rotation": 0,
           "target": "2-hinterhof"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -3.112263069055219,
-          "pitch": -0.07418413784317579,
-          "title": "SchlüsselBox",
+          "yaw": -3.1365176069221175,
+          "pitch": -0.10349343184777204,
+          "title": "Schlüsselsafe 1",
           "text": "<br>"
         }
       ]
@@ -213,16 +214,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.6914358702456234,
-          "pitch": 0.47817761243357104,
+          "yaw": 1.4961847515241686,
+          "pitch": 0.5429216964955916,
           "rotation": 0,
           "target": "2-hinterhof"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -2.890329921585005,
-          "pitch": 0.3182198904165503,
+          "yaw": -2.880866794685385,
+          "pitch": 0.3429512961226564,
           "title": "Parkplatz",
           "text": "<br>"
         }
@@ -258,30 +259,30 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.141869753888372,
-          "pitch": 0.9679202113856551,
+          "yaw": -1.1124768807968177,
+          "pitch": 1.0011232961887089,
           "rotation": 0,
-          "target": "1-tr-eingang"
+          "target": "1-eingang-tr"
         },
         {
-          "yaw": -2.468595073347549,
-          "pitch": 0.1519432211197902,
+          "yaw": -2.492248826165344,
+          "pitch": 0.19349549102766161,
           "rotation": 0,
-          "target": "6-treppe1"
+          "target": "6-treppen"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.8006088114013856,
-          "pitch": -0.01825035231231098,
+          "yaw": 0.5038639889390275,
+          "pitch": 0.20593180750127438,
           "title": "1. Etage",
           "text": "<br>"
         }
       ]
     },
     {
-      "id": "6-treppe1",
-      "name": "Treppe1",
+      "id": "6-treppen",
+      "name": "Treppen",
       "levels": [
         {
           "tileSize": 256,
@@ -309,14 +310,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.5103840413813145,
-          "pitch": 0.8208467887491189,
+          "yaw": -1.562728365385695,
+          "pitch": 0.8680169164941773,
           "rotation": 0,
           "target": "5-eingang-fahrstuhl"
         },
         {
-          "yaw": -0.8689045117662086,
-          "pitch": 0.110975751233374,
+          "yaw": -0.7870115129049076,
+          "pitch": 0.25310519713683455,
           "rotation": 0,
           "target": "7-eingang-haustr"
         }
@@ -353,23 +354,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.5079786777574355,
-          "pitch": 0.8922994594485232,
+          "yaw": -1.772573517198186,
+          "pitch": 0.8374287669256582,
           "rotation": 0,
-          "target": "6-treppe1"
+          "target": "6-treppen"
         },
         {
-          "yaw": -0.021634175582038395,
-          "pitch": 0.5989757538477303,
+          "yaw": -0.034160156385372176,
+          "pitch": 0.8450306555414926,
           "rotation": 0,
           "target": "8-flur"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.7401622944432624,
-          "pitch": -0.3611850115294484,
-          "title": "SchlüsselBox 2",
+          "yaw": -0.735752703815109,
+          "pitch": -0.36445552179709395,
+          "title": "Schlüsselsafe 2",
           "text": "<br>"
         }
       ]
@@ -404,204 +405,41 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.6658678226033743,
-          "pitch": 1.1955548069941742,
+          "yaw": -1.5970395032176015,
+          "pitch": 1.2041684481478683,
           "rotation": 0,
           "target": "7-eingang-haustr"
         },
         {
-          "yaw": 2.813282404032666,
-          "pitch": 0.6503706796877733,
+          "yaw": 0.3876301440887566,
+          "pitch": 0.7104667287444713,
+          "rotation": 0.7853981633974483,
+          "target": "9-toilette"
+        },
+        {
+          "yaw": 2.7544256371472766,
+          "pitch": 0.6474170379700261,
           "rotation": 0,
-          "target": "9-wohnzimmer"
+          "target": "11-wohnzimmer"
         },
         {
-          "yaw": 0.4586358794065415,
-          "pitch": 0.7090159145336195,
-          "rotation": 7.0685834705770345,
-          "target": "13-toilette"
-        },
-        {
-          "yaw": 0.09551693404841188,
-          "pitch": 0.4287600452176541,
-          "rotation": 13.351768777756625,
-          "target": "12-abstellraum"
-        },
-        {
-          "yaw": -0.09789768740000682,
-          "pitch": 0.635900064266627,
+          "yaw": -0.11389902933655094,
+          "pitch": 0.518829740004163,
           "rotation": 0,
-          "target": "14-schlafzimmer"
+          "target": "10-schlafzimmer"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.11291291950395,
+          "pitch": -0.04442065884384938,
+          "title": "Abstellraum",
+          "text": "<br>"
+        }
+      ]
     },
     {
-      "id": "9-wohnzimmer",
-      "name": "Wohnzimmer",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.59151575554972,
-          "pitch": 0.8679370171501919,
-          "rotation": 0,
-          "target": "8-flur"
-        },
-        {
-          "yaw": 1.0103712229700612,
-          "pitch": 0.541173831695648,
-          "rotation": 0,
-          "target": "10-balkon"
-        },
-        {
-          "yaw": 1.6702416694563667,
-          "pitch": 0.6187696092050246,
-          "rotation": 0,
-          "target": "11-kche"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "10-balkon",
-      "name": "Balkon",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.9435721244450441,
-          "pitch": 0.8017628825190695,
-          "rotation": 0,
-          "target": "9-wohnzimmer"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-kche",
-      "name": "Küche",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.8849014018604713,
-          "pitch": 0.6191281038547078,
-          "rotation": 0,
-          "target": "9-wohnzimmer"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "12-abstellraum",
-      "name": "Abstellraum",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1488,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.045479078702360454,
-          "pitch": 1.0612239822475331,
-          "rotation": 12.566370614359176,
-          "target": "8-flur"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-toilette",
+      "id": "9-toilette",
       "name": "Toilette",
       "levels": [
         {
@@ -630,8 +468,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.1614808274481785,
-          "pitch": 0.8465222429113215,
+          "yaw": 0.23900500996602148,
+          "pitch": 0.8301392593878933,
           "rotation": 0,
           "target": "8-flur"
         }
@@ -639,7 +477,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "14-schlafzimmer",
+      "id": "10-schlafzimmer",
       "name": "Schlafzimmer",
       "levels": [
         {
@@ -668,10 +506,136 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.5324018512679736,
-          "pitch": 0.6832731316689173,
+          "yaw": -2.5089331267857062,
+          "pitch": 0.6284761507487104,
           "rotation": 0,
           "target": "8-flur"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "11-wohnzimmer",
+      "name": "Wohnzimmer",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.62549210989188,
+          "pitch": 0.7503712930919573,
+          "rotation": 0,
+          "target": "8-flur"
+        },
+        {
+          "yaw": 1.674500574009599,
+          "pitch": 0.6217283113767778,
+          "rotation": 0.7853981633974483,
+          "target": "12-kche"
+        },
+        {
+          "yaw": 1.0884551265823408,
+          "pitch": 0.6432895670539622,
+          "rotation": 0,
+          "target": "13-balkon"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "12-kche",
+      "name": "Küche",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.874693038123282,
+          "pitch": 0.6712505763439083,
+          "rotation": 0,
+          "target": "11-wohnzimmer"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-balkon",
+      "name": "Balkon",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1488,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9201771418087983,
+          "pitch": 0.6204684409123562,
+          "rotation": 0,
+          "target": "11-wohnzimmer"
         }
       ],
       "infoHotspots": []
