@@ -78,6 +78,12 @@ var APP_DATA = {
           "pitch": 0.4230853478775529,
           "rotation": 0,
           "target": "2-hinterhof"
+        },
+        {
+          "yaw": 1.6767545090635192,
+          "pitch": 0.6892679092588061,
+          "rotation": 0,
+          "target": "5-eingang-fahrstuhl"
         }
       ],
       "infoHotspots": []
@@ -177,8 +183,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -3.1365176069221175,
-          "pitch": -0.10349343184777204,
+          "yaw": 3.129963892497468,
+          "pitch": -0.4317900852150469,
           "title": "Schlüsselsafe 1",
           "text": "<br>"
         }
